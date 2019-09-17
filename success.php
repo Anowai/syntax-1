@@ -19,6 +19,7 @@ if(!isset($_SESSION['login_user'])){
 <body>
 
     <div id="container">
+    	<h1 style="text-align:center; color: #333333">WELCOME TO TEAM SYNTAX</h1>
     <h2 style="text-align:center; color: blue">You are logged in Successfully <?php echo $_SESSION['login_user']?> !</h2>
   </div>
 
